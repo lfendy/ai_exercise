@@ -10,4 +10,8 @@ class Wordcheck
     end
   end
 
+  def valid? word
+    !!@valid_words[word]
+  end
+
 end
